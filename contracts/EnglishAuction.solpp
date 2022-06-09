@@ -19,7 +19,6 @@ interface IERC721 {
     ) external;
 }
 
-
 contract EnglishAuction {
     event Start();
     event Bid(address indexed sender, uint amount);

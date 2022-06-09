@@ -6,7 +6,7 @@ interface IERC165 {
 }
 
 interface IERC721 is IERC165 {
-    function balanceOf(address owner) external view returns (uint balance);
+    function balanceOf(address owner) external view returns (uint _balance);
 
     function ownerOf(uint tokenId) external view returns (address owner);
 
